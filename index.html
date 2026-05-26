@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,4 +19,260 @@
         Inteligentes</p>
         <p class="color-blue fuente"> esto es otro estilo</p>
     </body>
+=======
+<!DOCTYPE html> <html lang="es"> <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa del Gato con Botas - Hotel & Spa Felino</title> 
+    <meta name="title" content="La Casa del Gato con Botas">
+    <meta name="description" content="El mejor hotel, spa y cuidado para tus michis con el estilo del Gato con Botas.">    
+    
+    <link href="estilos.css" rel="stylesheet">
+    
+    <style>
+        /* Paleta de colores inspirada en el Gato con Botas: Sombrero (Negro/Gris), Pluma (Amarillo/Oro), Botas (Marrón/Naranja) */
+        :root {
+            --dorado: #ffcc00;
+            --oscuro: #1a1a1a;
+            --crema: #fdfaf6;
+            --naranja: #e67e22;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--crema);
+            margin: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: var(--oscuro);
+            color: var(--dorado);
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 5px solid var(--naranja);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            color: #fff;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: var(--naranja);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        nav li a:hover {
+            background-color: var(--oscuro);
+            color: var(--dorado);
+        }
+
+        .contenedor-principal {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .tarjeta-servicio {
+            background: #f9f9f9;
+            border-left: 5px solid var(--naranja);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        aside {
+            background: var(--oscuro);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+        }
+
+        .testimonio {
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .testimonio span {
+            color: var(--dorado);
+            display: block;
+            font-size: 0.8rem;
+        }
+
+        footer {
+            background-color: var(--oscuro);
+            color: #aaa;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 40px;
+            border-top: 5px solid var(--dorado);
+        }
+
+        footer a {
+            color: var(--dorado);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Formulario básico llamativo */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        input, textarea, button {
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: var(--naranja);
+            color: white;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: var(--oscuro);
+            color: var(--dorado);
+        }
+    </style> 
+
+    <script src="script.js"></script>  
+    <script type="text/javascript">
+        /* Código JS Interactividad básica */
+        function saludarMichi() {
+            alert("¡Miauuu! Bienvenidos a la Casa del Gato con Botas. Deja tus datos y te contactaremos.");
+        }
+    </script> 
+</head>  
+
+<body>    
+    <header>
+        <h1>⚔️ LA CASA DEL GATO CON BOTAS ⚔️</h1>      
+        <p>"Donde tu felino es tratado como un verdadero héroe de leyenda"</p>
+    </header>    
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">⚔️ Inicio</a></li>
+            <li><a href="#servicios">🐾 Servicios</a></li>
+            <li><a href="#contacto">✉️ Contacto</a></li>
+       </ul>
+    </nav>
+
+    <div class="contenedor-principal">
+        <section id="inicio">      
+            <article>
+                <h2>¡Bienvenidos, Nobles Aventureros!</h2>
+                <p>En nuestro establecimiento, inspirado en el felino más valiente e intrépido de los siete mares (y tejados), ofrecemos una experiencia premium para el cuidado, hospedaje y estilismo de tu mascota.</p>      
+            </article>      
+
+            <hr>
+
+            <article id="servicios">
+                <h2>Nuestros Servicios de Leyenda</h2>
+                
+                <div class="tarjeta-servicio">
+                    <h3>🛡️ Hotel de 5 Estrellas "El Sombrero"</h3>
+                    <p>Habitaciones alfombradas con rascadores de roble y camas de seda para un descanso digno de la realeza.</p>
+                </div>
+
+                <div class="tarjeta-servicio">
+                    <h3>✨ Spa & Baño "La Pluma Dorada"</h3>
+                    <p>Lavado aromático, corte de uñas con precisión de espada y cepillado de pelaje para dejarlo brillante.</p>
+                </div>
+
+                <div class="tarjeta-servicio">
+                    <h3>🥛 Cantina "El Vaso de Leche"</h3>
+                    <p>Nutrición personalizada y bar de leche deslactosada premium para los paladares más exigentes.</p>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="contacto">
+                <h2>Reserva una Cita de Aventuras</h2>
+                <p>Completa el formulario para separar el espacio de tu michi:</p>
+                <form onsubmit="saludarMichi(); return false;">
+                    <input type="text" placeholder="Nombre de tu gato" required>
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <textarea placeholder="Cuéntanos las habilidades o cuidados especiales de tu héroe" rows="4"></textarea>
+                    <button type="submit">Enviar Mensaje de Rescate</button>
+                </form>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Maullidos de Satisfacción</h3>
+            
+            <div class="testimonio">
+                <p>"El mejor lugar de descanso. Dejé mis botas en la entrada y dormí como un rey."</p>
+                <span>- Gato con Botas (Cliente Frecuente)</span>
+            </div>
+
+            <div class="testimonio">
+                <p>"El servicio de spa dejó mi pelaje tan suave que mi dueño no deja de acariciarme."</p>
+                <span>- Michi Pelusa</span>
+            </div>
+            
+            <div class="testimonio">
+                <p>"¡10/10! Tienen ratones de juguete mecánicos que realmente corren."</p>
+                <span>- Garfield</span>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <h4>Nuestras Redes Sociales Oficiales</h4>
+        <a href="#">🌐 Facebook/CasaGatoBotas</a> | 
+        <a href="#">📸 Instagram @MichiConBotas</a>
+        <p style="font-size: 0.8rem; margin-top: 15px;">&copy; 2026 La Casa del Gato con Botas. Todos los derechos reservados.</p>
+    </footer>
+
+</body>  
+>>>>>>> 22ff40f6f27d8888732b0f18ee014184027e4109
 </html>
