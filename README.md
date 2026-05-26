@@ -179,10 +179,6 @@ Los encabezados van del `<h1>` (el más importante) al `<h6>` (el menos importan
   Nota importante:
   Asegúrate de que el pollo esté bien cocido.
 </pre>
-<<<<<<< HEAD
-=======
-
->>>>>>> 22ff40f6f27d8888732b0f18ee014184027e4109
 ```
 
 ### 🔹 Líneas y saltos
@@ -193,7 +189,6 @@ Los encabezados van del `<h1>` (el más importante) al `<h6>` (el menos importan
 ```html
 <p>Línea de texto 1<br>Línea de texto 2</p>
 <hr>
-<<<<<<< HEAD
 ```
 
 ### 🔹 CSS (cascading style sheet)
@@ -210,7 +205,3 @@ este manera de aplicar css es haciendo uso de los atributos de un elemento en es
 este tipo de aplicar estilo nos permite hacer uso de la etiqueta style para poder estilar nuestros elemento, por convencio esta etiqueta 
 al ser de configuracion se debe usar en `head`
 ### 3. archivo externo
-=======
-
-```
->>>>>>> 22ff40f6f27d8888732b0f18ee014184027e4109
