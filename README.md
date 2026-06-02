@@ -192,18 +192,26 @@ Los encabezados van del `<h1>` (el más importante) al `<h6>` (el menos importan
 ```
 
 ### 🔹 CSS (cascading style sheet)
-cascada de hojas de estilo, es el documento que nos permite darle estilo a nuestros elementos, posicionar, formato, escalar, color
- y transcisiones.
+
+cascada de hojas de estilo, es el documento que nos permite darle estilo a nuestros elementos, posicionar, formato, escalar, color y transcisiones.
+
 ## como aplicar css a nuestro documento html
+
 ### 1. en linea
+
 este manera de aplicar css es haciendo uso de los atributos de un elemento en este caso es especial usando el atributo `style`
+
 ```html
+
 <p style="color:blue;size:23px">este es el texto </p>
 ```
+
 > [!TIP] En el caso de los embebidos y los de archivos externo hay que entender sobre selectores: son manera de como yo identifico un elemento dentro de un documento html, selector por etiqueta, id y clase, en el diseño web se recomienda solo usar los selectores de tipo clase.
+
 ### 2. embebidos
-este tipo de aplicar estilo nos permite hacer uso de la etiqueta style para poder estilar nuestros elemento, por convencio esta etiqueta 
-al ser de configuracion se debe usar en `head`
+
+este tipo de aplicar estilo nos permite hacer uso de la etiqueta style para poder estilar nuestros elemento, por convencio esta etiqueta al ser de configuracion se debe usar en `head`
+
 ### 3. archivo externo
 Es la manera correcta y mas usada para aplicar estilo dentro de un documento `html`. para asociar un archivo externo lo tenemos que hacer 
 en nuestro etiqueta de configuracion `head`, haciendo uso de la etiqueta `link` a travez de su atributo `href` en ete atributo le indicamos la ruta del 
