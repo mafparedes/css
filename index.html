@@ -3,19 +3,32 @@
     <head>
         <title>Ejemplo</title>
         <style>
+           /*en esta seccion estoy haciendo uso de los selectores de tipo clase*/
             .color-blue{
                 color: blue;
             }
             .fuente{
                 font-size: 50px;
             }
+            /*aqui el selector de tipo nombre o etiqueta */
+            span{
+                background: yellowgreen;
+            }
+            h1{
+                background: red;
+            }
         </style>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
+        <!--en esta linea de codigo estoy aplicandi estilos de tipo linea por que en la misma etiqueta usando
+        un atributo aplica los estilos-->
         <p style="color: #4D1E54;
         font-size:40px;
         font-weight: 600;">Hola Alumnitos 
         Inteligentes</p>
         <p class="color-blue fuente"> esto es otro estilo</p>
+        <span>soy span y no tengo estilo </span>
+        <h1>Hola</h1>
     </body>
 </html>

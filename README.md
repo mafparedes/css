@@ -205,3 +205,6 @@ este manera de aplicar css es haciendo uso de los atributos de un elemento en es
 este tipo de aplicar estilo nos permite hacer uso de la etiqueta style para poder estilar nuestros elemento, por convencio esta etiqueta 
 al ser de configuracion se debe usar en `head`
 ### 3. archivo externo
+Es la manera correcta y mas usada para aplicar estilo dentro de un documento `html`. para asociar un archivo externo lo tenemos que hacer 
+en nuestro etiqueta de configuracion `head`, haciendo uso de la etiqueta `link` a travez de su atributo `href` en ete atributo le indicamos la ruta del 
+archivo que se debe asociar 
