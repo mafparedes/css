@@ -215,4 +215,11 @@ este tipo de aplicar estilo nos permite hacer uso de la etiqueta style para pode
 ### 3. archivo externo
 Es la manera correcta y mas usada para aplicar estilo dentro de un documento `html`. para asociar un archivo externo lo tenemos que hacer 
 en nuestro etiqueta de configuracion `head`, haciendo uso de la etiqueta `link` a travez de su atributo `href` en ete atributo le indicamos la ruta del 
-archivo que se debe asociar 
+archivo que se debe asociar.
+
+> [!TIP] **obvservacion:** una ruta absoluta es la direccion completa del archivo ejem: `C:\Users\USER\OneDrive\Desktop - copia\alvbarez\primera_clase`, y una ruta relativa es la direccion actual del proyecto ejem: `./` 
+**ejemplo**
+##tenemos en mi carpeta del proyecto un archivo llamado `logo,png` como acceder a este archivo usando su ruta absoluta 
+C:\Users\USER\OneDrive\Desktop - copia\alvbarez\primera_clase/logo.png
+#usando la ruta relativa
+./logo.png
