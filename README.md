@@ -220,6 +220,6 @@ archivo que se debe asociar.
 > [!TIP] **obvservacion:** una ruta absoluta es la direccion completa del archivo ejem: `C:\Users\USER\OneDrive\Desktop - copia\alvbarez\primera_clase`, y una ruta relativa es la direccion actual del proyecto ejem: `./` 
 **ejemplo**
 ##tenemos en mi carpeta del proyecto un archivo llamado `logo,png` como acceder a este archivo usando su ruta absoluta 
-C:\Users\USER\OneDrive\Desktop - copia\alvbarez\primera_clase/logo.png
+C:\Users\ASUS\Documents\APSTI V\css - copia\alvbarez\primera_clase/logo.png
 #usando la ruta relativa
 ./logo.png
