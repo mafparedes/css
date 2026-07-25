@@ -41,3 +41,31 @@ div {
     
     }
 }
+ /*COLORES. FUENTE Y ESTILO*/
+ /*COLORES*/
+ .color-hexa{
+   color: #a3fb2b;
+ }
+ .color-rgb{
+   color:rgb(251,43,217); /*cada valor se relaciona posicionalmente a las letras y sus 
+   valores van del 0-255*/
+ }
+ .color-trans{
+   color:rgba(251,43,217,0.5);
+ }
+
+ /*FUENTE*/
+ .fuente-estilizada{
+   font-family:'Black Ops One',Verdana, sans-serif;
+   font-size: 1em; /*tamaño a la fuente, 1 em equivale a 12px*/
+   font-weight: 900; /*especificar el grosor de la linea de la fuente sus valores van de 
+   del 100-900 se relaciona con el estilo negrita siendo 900 ms negrita y 100 la linea mas delgada*/
+   line-height: 2;/*espacios entre lineas*/
+
+ }
+ .text-transfor{
+    text-align: center;
+    text-decoration:4px  underline dashed red;
+    text-transform: capitalize; /*tenermos las propiedades uppercase(mayuscula) lower case(minuscula)*/
+
+ }
